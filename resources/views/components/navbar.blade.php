@@ -18,7 +18,7 @@
                 <div class="nav_list">
                     <a href="/" class="nav_link {{ Request::is('/') ? 'active' : '' }}">
                         <i class='bx bxs-home nav_icon'></i>
-                        <span class="nav_name">Homepage</span>
+                        <span class="nav_name">Dashboard</span>
                     </a>
                     <a href="/history" class="nav_link {{ Request::is('history') ? 'active' : '' }}">
                         <i class='bx bx-history nav_icon'></i>
