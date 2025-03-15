@@ -28,6 +28,14 @@
                         <i class='bx bxs-droplet nav_icon'></i>
                         <span class="nav_name">Precipitation Data</span>
                     </a>
+                    <a href="/contact" class="nav_link {{ Request::is('contact') ? 'active' : '' }}">
+                        <i class='bx bxs-phone nav_icon'></i>
+                        <span class="nav_name">Contact Us</span>
+                    </a>
+                    <a href="/about" class="nav_link {{ Request::is('about') ? 'active' : '' }}">
+                        <i class='bx bxs-info-circle nav_icon'></i>
+                        <span class="nav_name">About</span>
+                    </a>
                 </div>
             </div>
         </nav>

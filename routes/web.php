@@ -13,3 +13,11 @@ Route::get('/history', function () {
 Route::get('/precData', function () {
     return view('precData');
 });
+
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
